@@ -1,5 +1,43 @@
 React.Node
 React.ComponentType
+React.ComponentProps
 React.Dispatch<setStateAction<type>>
-React.changeEvent<HTMLInputElement>
+React.ChangeEvent<HTMLInputElement>
 React.MouseEvent<HTMLButtonElement>
+useRef
+useState
+useReducer
+Generic 
+Exclude
+Template Literals 
+Exclude
+Omit
+
+
+Omit
+ // Remove a variable from specific type ,, not taking its props
+
+
+Template Literals  
+ // `${TypeProps}-${TypeProps}` ,, this combine all possible solution
+
+Exclude 
+ // Exclude<`${TypeProps}-${TypeProps}`,'specific type'> ,,Exclude value from type
+
+React.Dispatch<setStateAction<type>>
+ // 
+
+React.MouseEvent<HTMLButtonElement>
+ // To Show the mouse event
+
+useReducer : similar to useState , takes two argument (initialSate , reducer)
+ // initialState is a state 
+ // reducer is a custom state logic function
+
+useRef : used to store a value and can't re-render the application when change or update
+ // initalRef = useRef(null)
+ // intervalRef = useRef(0)
+ // have one item only which is (.current) property
+
+Generic : is an alias given to the type
+ // type Example<T> = {}
