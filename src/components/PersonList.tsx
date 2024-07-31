@@ -1,4 +1,3 @@
-import { Test } from "./Test";
 import { Name } from "./Types/Person.types";
 
 type PersonListProps = {
@@ -11,9 +10,7 @@ export const PersonList = ({ names }: PersonListProps) => {
       {names.map((name, index) => {
         return (
           <h2 key={index}>
-            <Test name={name}>
-              {name.first} {name.last}
-            </Test>
+            {name.first} {name.last}
           </h2>
         );
       })}

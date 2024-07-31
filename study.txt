@@ -1,0 +1,5 @@
+React.Node
+React.ComponentType
+React.Dispatch<setStateAction<type>>
+React.changeEvent<HTMLInputElement>
+React.MouseEvent<HTMLButtonElement>
