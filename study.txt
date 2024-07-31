@@ -1,6 +1,6 @@
 React.Node
 React.ComponentType
-React.ComponentProps
+React.ComponentProps<'button'> or <'input'> or <type of component>
 React.Dispatch<setStateAction<type>>
 React.ChangeEvent<HTMLInputElement>
 React.MouseEvent<HTMLButtonElement>
@@ -14,9 +14,11 @@ Exclude
 Omit
 
 
+React.ComponentProps<type of component>
+ // take props types from other component 
+
 Omit
  // Remove a variable from specific type ,, not taking its props
-
 
 Template Literals  
  // `${TypeProps}-${TypeProps}` ,, this combine all possible solution
